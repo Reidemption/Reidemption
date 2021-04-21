@@ -1,0 +1,116 @@
+Midterm 1
+(answer)
+Log:
+
+1. What is approx Log base 2 of 510,000?
+28 (19)
+2. What is approx Log base 10 of 100,000,000?
+1000 (8) 
+3. What is approx 4 to the power of 15?
+1,000,000 (1,000,000,000)
+
+Big O:
+4. What is Big O analysis?
+Determining how long a function will take (**study of how work increases as problem size increases)
+
+5. When is Big O analysis most important?
+When dealing with large lists and amount of data(when N is big)
+
+6. Which Big O category does this function use?
+    def MakeArray(size):
+        A = []
+        while len(A) < size:
+            r = random.randrange(0,size)
+            if r not in A:
+                A.append(r)
+        return A
+N^2 (N^3)
+the while loop is N^2
+
+7. Give the Big O for the following algorithms:
+
+    Binary Search:
+logN (logN)
+    Merge Sort of mostly sorted data:
+NlogN (NlogN)
+    SAT solver by trying all combinations:
+2^N (2^N)
+    Multiplying two integers of N digits each:
+1 (N^2)
+    Selection Sort of random data:
+N^2 (N^2)
+
+8. If you are trying to speed up code that is running slowly, where is the bottle neck code likely to be?
+At a while statement, for loop, or if statement (where the worst Big O is)
+
+9. Is it good practice to always optimize your code? Why or why not?
+No, sometimes optimization isn't necessary and can cause delays. (Not always. Trade-off between optimization and readability; time consuming;
+optimize bottle neck code)
+
+10. Which Big O category does this code use?
+    For loop N time
+        Do N^3 work here.
+    For loop N times
+        For loop N times
+            Do N Work here
+
+A) N^3
+B) N^4
+C) N^5
+D) N^6
+
+D (B)
+
+11. Fill out the table with the correct Big O categories
+            Expected        Worst       Best
+Shaker Sort N^2             N^2         N
+Quick Sort  NlogN           N^2         NlogN
+Merge Sort  NlogN           NlogN       NlogN
+
+Sorting:
+**12 Show what happens after one pass using quick sort. Use 'N' as the pivot
+and the same algorithm as in class
+Array: N T A B S V C H 
+
+        N A T B S V C H 
+        N A B T S V C H  
+        N A B C S V T H 
+        N A B C H V T S 
+        H A B C N V T S 
+
+
+    Y S A C Z Y K L
+    Y A S C Z Y K L 
+    Y A C S Z Y K L
+    Y A C L Z Y K S 
+    K A C L Z Y Y S
+
+
+
+13 Given a table from assignment 3 where did the data come from?
+A) Counting Compares on Random Data
+B) Counting Swaps on Random Data
+C) Counting Compares on Mostly Sorted Data 
+D) Counting Swaps on Mostly Sorted Data 
+(Counting Compares) look at how quick sort breaks down
+
+ADT (Abstract Data Types)
+14 Why is it good for a Computer Scientist to seperate the ADT from the implementation?
+(To easily change implementation details later and keep ADT the same)
+
+15. Give real life examples for where a stack and queue might be used.
+PEZ candy, plates at a buffet = stack 
+Grocery store line = queue
+
+16. What is the ADT for a car?
+gas pedal and break
+
+
+
+17. write code for CreateMostlySortedList
+
+def CreateMostlySortedList(size):
+    mslist = CreateRandomList(size)
+    mslist.sort()
+    mslist[0],mslist[-1] = mslist[-1],mslist[0]
+    return mslist

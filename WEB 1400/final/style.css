@@ -1,0 +1,199 @@
+body {
+	color:#9DC8C8;
+	background-color:#D1B6E1;
+	font-family: Helvetica;
+	background-image: linear-gradient(to bottom, #6AAFE6, #CADBE9);
+	background-attachment: fixed;
+}
+
+header {
+	background-color: #519D9E;
+	color: #FFFFFF;
+	margin-bottom: -15px;
+	padding: 15px;
+	padding-bottom: 20px !important
+}
+footer {
+	clear: right;
+	clear: left;
+}
+h1 {
+	padding-top: 10px;
+	margin-top: 0;
+}
+h2 {
+	text-decoration: none;
+	color:#9DC8C8;
+	font-family: Helvetica;
+	font-weight: bolder;
+}
+h3 {
+	font-family: Helvetica;
+	color:#58C9B9;
+}
+main {
+	padding: 1px 20px 25px 20px;
+	display: block;
+	text-align: center;
+}
+
+nav {
+	background-color:#77AAAD;
+	font-weight: bold;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:link {
+	color: #D8E6E7;
+
+}
+
+nav a:hover:not(.active) {
+	text-decoration: underline; 
+}
+
+nav a:visited {
+	color: #D8E6E7
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #58C9B9
+}
+
+a:visited {
+	color: #58C9B9
+}
+
+nav a.active {
+	background-color: #58C9B9;
+	color: #FFFFFF;
+}
+
+footer {
+	font-size: .75em;
+	padding-bottom: 5px;
+}
+
+.pict {
+	padding-right: 10px;
+	width: 345px;
+	height: auto;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 10px #333333;
+}
+
+.center{
+    width:350px;
+    margin:0 auto;
+    text-align:left !important;
+}
+
+.left{
+	text-align: left !important;
+}
+
+.right{
+	text-align: right !important;
+}
+
+.float-img {
+	float: left;
+	padding: 2px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.video {
+	width: 75%;
+	height: 75%;
+}
+
+.yvideo {
+	width: 560px;
+	height: 315px;
+}
+
+@media only screen and (max-width: 960px) {
+	head {
+		padding-top: 1px;
+	}
+	body {
+		margin: 0;
+	}
+
+	#wrapper {
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.video {
+		width: 80%;
+		height: 80%;
+	}
+
+	.yvideo {
+		width: 420px;
+		height: 236.25px;
+	}
+
+	main {
+		margin-left: 0px;
+	}
+	nav {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;
+	}
+}
+
+@media only screen and (max-width:560px) { 
+	head {
+		margin-top: 1px;
+	}
+	nav {
+		padding: 0;
+	}
+	nav a {
+		display: block;
+		margin: 0;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+	}
+	#wrapper {
+		width: 100%
+	}
+	.video {
+		width: 90%;
+		height: 90%;
+	}
+	.pict {
+		width: 75%;
+	}
+	.yvideo {
+		display: none;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+final all multiple choice except 2 write code questions
+
+Show binary tree after deleting different nodes
+
+Nobody uses the BST
+
+Categories of Trees:
+AVL Trees
+2-3 Trees
+234 Trees
+Red Black Trees
+
+4-5 Show the insert and delete of 2-3 Tree
+
+4-5 What a Balanced Binary Tree means: Is the tree balanced? What needs to be changed to make it balanced?
+
+4-5 When would a 100 tree be useful: Data is stored on harddrive, when the data is too large to be stored on RAM
+
+4-14 Matrix representation of a graph
