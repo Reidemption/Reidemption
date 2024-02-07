@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm currently a web developer, but I'm interested in learning more about AI and ML!
+Working as a full-stack software developer at Sekady Capital. Learning every day!
 
 
 ## 🌐 Socials:
