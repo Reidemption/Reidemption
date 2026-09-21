@@ -1,5 +1,5 @@
 # 💫 About Me:
-Working as an associate software engineer at Vasion. Learning every day!
+Working as an associate software engineer at Vasion. Enjoying every day!
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gublereid/)
